@@ -4,10 +4,10 @@ from ldap3 import Server, Connection, ALL, MODIFY_REPLACE
 
 app = Flask(__name__)
 
-LDAP_SERVER = 'ldap://your_ldap_server'
-LDAP_USER = 'cn=admin,dc=example,dc=com'
-LDAP_PASSWORD = 'your_password'
-BASE_DN = 'dc=example,dc=com'
+LDAP_SERVER = ''
+LDAP_USER = ''
+LDAP_PASSWORD = ''
+BASE_DN = ''
 
 
 @app.route('/')
